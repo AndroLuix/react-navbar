@@ -4,6 +4,10 @@
 
 `npm install react-icons`
 
+# apri il link per la demo
+
+link(https://react-navbar-androluix.netlify.app/)
+
 
 
 
