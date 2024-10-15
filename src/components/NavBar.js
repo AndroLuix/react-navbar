@@ -57,7 +57,7 @@ const NavBar = () => {
                     <ul className='nav-links' ref={linkListRef}>                            {
                         links.map(el => {
                             return (<li key={el.id} >
-                                <a href={el.url} target={el.target} alt={el.text}>
+                                <a href={el.url} target={el.target} alt={el.text} rel="noreferrer">
                                     {el.text}
                                 </a>
                             </li>)

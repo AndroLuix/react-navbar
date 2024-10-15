@@ -67,7 +67,7 @@ const SocialBar = () => {
         const { id, url, icon } = el;
         return (
           <li key={id}>
-            <a href={url} alt="social" target="_blank">
+            <a href={url} alt="social" rel="noreferrer" target="_blank">
               {icon}
             </a>
           </li>
