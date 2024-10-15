@@ -4,7 +4,7 @@ import logo from '../logo.jpg'
 import { links, SocialBar } from '../link'
 
 const NavBar = () => {
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
 
     const linkContainerRef = useRef(null);
     const linkListRef = useRef(null);
